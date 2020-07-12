@@ -27,6 +27,12 @@ public class Lance {
 		this.leilao = leilao;
 	}
 	
+	public Lance(Calendar data, Usuario usuario, double valor) {
+		this.usuario = usuario;
+		this.data = data;
+		this.valor = valor;
+	}
+	
 	public double getValor() {
 		return valor;
 	}
